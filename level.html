@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <center>
+        <div class="container">
+            <h1>Character Design</h1>
+            <div class="box">
+                <div class="attribute">
+                    <label for="strength">Strength:</label>
+                    <span id="strength-value">500</span>
+                    <input type="range" id="strength" min="0" max="1000" value="0">
+                    
+                </div>
+                <div class="attribute"> 
+                    <label for="agility">Agility:</label>
+                    <span id="agility-value">500</span>
+                    <input type="range" id="agility" min="0" max="1000" value="0">
+                
+                </div>
+                <div class="attribute">
+                    <label for="intelligence">Intelligence:</label>
+                    <span id="intelligence-value">500</span>
+                    <input type="range" id="intelligence" min="0" max="1000" value="0">
+                </div>
+                
+            </div>
+        </div>
+        
+        <div id="power-level">
+            <br></br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Power Level:</span> <span id="power-level-value">1500</span>
+        </div>
+        <script src="script.js"></script>
+      </center>
+</body>
+</html>
